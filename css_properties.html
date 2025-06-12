@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles.css">
+    <style>
+        div.relative {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 3px solid #73AD21;
+} 
+div.sticky {
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  background-color: #cae8ca;
+  border: 2px solid #4CAF50;
+}
+div.absolute {
+  position: absolute;
+  top: 80px;
+  right: 0;
+  width: 200px;
+  height: 100px;
+  border: 3px solid #73AD21;
+}
+div.relative {
+  position: relative;
+  left: 30px;
+  border: 3px solid #73AD21;
+}
+</style>
+</head>
+<body >
+    <div class="box">This Is A Box</div>
+    <p class="text">Welcome To CSS</p>
+    <p id="ten">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse saepe totam, et eius quibusdam maiores sapiente repellat sunt voluptates quod minus, vero repellendus. Nam laudantium repellat sunt, itaque dignissimos recusandae?</p>
+    <h2>position: static;</h2>
+
+<p>An element with position: static; is not positioned in any special way; it is always positioned according to the normal flow of the page:</p>
+<div class="sticky">I am sticky!</div>
+<div class="static">
+This div element has position: static;
+</div>
+<div class="relative">
+This div element has position: relative;
+</div>
+<div class="relative">This div element has position: relative;
+  <div class="absolute">This div element has position: absolute;</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+#name{
+    background-color: blue;
+}
+#para{
+    colors: brown;
+}
+#for{
+    color: blue;
+}
+form {
+    background-color: #fff8dc;
+    padding: 20px;
+    margin: 30px auto;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    font-family: Arial, sans-serif;
+}
+
+/* Style input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style labels */
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;   
+    color: #333;
+}
+
+/* Style submit button */
+input[type="submit"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Center the heading */
+legend {
+    text-align: center;
+}
+.box{
+    width:300px;
+    padding: 30px;
+    border: 10px solid blue;
+    margin:10px;
+    background-color: #0df54e;
+}
+.text{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 200;
+    line-height: 2;
+    text-decoration: dotted;
+    text-align:left;
+}
+#ten{
+    font-family: cursive;
+    font-size: medium;
+    font-weight:bold ;
+    color: #0df54e;
+    font-;
+}
+
+🔧 Additional Fixes You Should D
